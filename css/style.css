@@ -131,7 +131,6 @@ svg.pac {
   margin-right: auto;
   margin-top: 20vh;
   margin-bottom: 20vh;
-  background-color: rgba(255, 255, 255, 0.9);
   width: 90vw;
   max-width: 1200px;
   height: 60vh;
@@ -139,7 +138,7 @@ svg.pac {
   box-shadow: 7.5px 7.5px 5px rgba(0, 20, 17, 0.2);
 }
 
-.popups>article>h1 {
+.popups>article>h2 {
   text-align: center;
   font-weight: 900;
   margin-top: 0;
@@ -150,64 +149,100 @@ svg.pac {
   color: white;
 }
 
-#ara>h1 {
-  border-bottom: 5px solid red;
+#ara>h2 {
   background-color: blue;
 }
 
-#bfc>h1 {
-  border-bottom: 5px solid red;
+#ara>.content {
+  border-top: 5px solid red;
+}
+
+#bfc>h2 {
   background-color: blue;
 }
 
-#bre>h1 {
-  border-bottom: 5px solid red;
+#bfc>.content {
+  border-top: 5px solid red;
+}
+
+#bre>h2 {
   background-color: blue;
 }
 
-#cvl>h1 {
-  border-bottom: 5px solid red;
+#bre>.content {
+  border-top: 5px solid red;
+}
+
+#cvl>h2 {
   background-color: blue;
 }
 
-#gre>h1 {
-  border-bottom: 5px solid red;
+#cvl>.content {
+  border-top: 5px solid red;
+}
+
+#gre>h2 {
   background-color: blue;
 }
 
-#hdf>h1 {
-  border-bottom: 5px solid red;
+#gre>.content {
+  border-top: 5px solid red;
+}
+
+#hdf>h2 {
   background-color: blue;
 }
 
-#idf>h1 {
-  border-bottom: 5px solid red;
+#hdf>.content {
+  border-top: 5px solid red;
+}
+
+#idf>h2 {
   background-color: blue;
 }
 
-#naq>h1 {
-  border-bottom: 5px solid red;
+#idf>.content {
+  border-top: 5px solid red;
+}
+
+#naq>h2 {
   background-color: blue;
 }
 
-#ndi>h1 {
-  border-bottom: 5px solid red;
+#naq>.content {
+  border-top: 5px solid red;
+}
+
+#ndi>h2 {
   background-color: blue;
 }
 
-#occ>h1 {
-  border-bottom: 5px solid red;
+#ndi>.content {
+  border-top: 5px solid red;
+}
+
+#occ>h2 {
   background-color: blue;
 }
 
-#pac>h1 {
-  border-bottom: 5px solid red;
+#occ>.content {
+  border-top: 5px solid red;
+}
+
+#pac>h2 {
   background-color: blue;
 }
 
-#plo>h1 {
-  border-bottom: 5px solid red;
+#pac>.content {
+  border-top: 5px solid red;
+}
+
+#plo>h2 {
   background-color: blue;
+}
+
+#plo>.content {
+  border-top: 5px solid red;
 }
 
 img {
@@ -223,7 +258,7 @@ a.back {
   display: block;
   z-index: 4;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 9, 7, 0.7);
 }
 
 .content {
@@ -234,7 +269,7 @@ a.back {
   padding-bottom: 15px;
   text-align: center;
   padding-top: 22px;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .content>p {
