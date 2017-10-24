@@ -1,9 +1,11 @@
+.mobile{
+	display: none;
+}
 body{
 	font-family: Arial;
 	background-color: #FFEBEE;
 	margin: 0px;
 	overflow: hidden;
-	color: #9E9E9E;
 }
 
 div.map{
@@ -129,19 +131,74 @@ svg.pac{
 	margin-right: auto;
 	margin-top: 20vh;
 	margin-bottom: 20vh;
-	background-color: #424242;
+	background-color: rgba(255, 255, 255, 0.9);
 	width: 90vw;
 	max-width: 1200px;
 	height: 60vh;
-	opacity: 0.9;
 	border-radius: 20px;
-	box-shadow: 10px 10px 5px #888888;
+	box-shadow: 7.5px 7.5px 5px rgba(0,20,17,0.2);
 }
 .popups>div>h1{
 	text-align: center;
 	font-weight: 900;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 58px;
+	position: relative;
+	z-index: 6;
+	color: white;
 }
-
+#ara>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#bfc>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#bre>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#cvl>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#gre>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#hdf>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#idf>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#naq>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#ndi>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#occ>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#pac>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+#plo>h1{
+	border-bottom: 5px solid red;
+	background-color: blue;
+}
+img{
+	width: 400px;
+}
 a.back{
 	width: 100vw;
 	height: 100vh;
@@ -151,13 +208,19 @@ a.back{
 	display: block;
 	z-index: 4;
 	overflow: hidden;
+	background-color: rgba(0,0,0,0.5);
 }
 
 .content{
 	z-index: 5;
 	position: relative;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 12px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 15px;
+	text-align: center;
+	padding-top: 22px;
+	background-color: white;
+}
+.content>p{
 	text-align: justify;
 }
