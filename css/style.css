@@ -1,0 +1,163 @@
+body{
+	font-family: Arial;
+	background-color: #FFEBEE;
+	margin: 0px;
+	overflow: hidden;
+	color: #9E9E9E;
+}
+
+div.map{
+	/*width: 100%;*/
+	margin: auto;
+}
+
+div.map>a>svg>path{
+	fill: #EF5350;
+	transition: fill 0.5s;
+}
+
+div.map>a>svg>path:hover{
+	fill: #D32F2F;
+}
+
+div.map>a>svg{
+	position: absolute;
+	margin-left: calc(50vw - (739px/2));
+	margin-top: calc(50vh - (751px/2));
+	z-index: 1;
+}
+
+.back {
+    background-color: white;
+    width: 751px;
+    display: block;
+    height: 751px;
+    border-radius: 1110px;
+		margin-left: calc(50vw - (751px/2));
+		margin-top: calc(50vh - (751px/2));
+		box-shadow: 15px 15px 10px rgba(0,0,0,0.2);
+}
+
+svg.hdf{
+	top: 0px;
+	left: 357px;
+	width: 150px;
+}
+
+svg.idf{
+	top: 164px;
+	left: 357px;
+	width: 113px;
+}
+
+svg.gre{
+	top: 97px;
+	left: 468px;
+	width: 269px;
+}
+
+svg.ndi{
+	top: 90px;
+	left: 170px;
+	width: 200px;
+}
+
+svg.plo{
+	top: 222px;
+	left: 125px;
+	width: 192px;
+}
+
+svg.bfc{
+	top: 238px;
+	left: 448px;
+	width: 239px;
+}
+
+svg.cvl{
+	top: 187px;
+	left: 273px;
+	width: 174px;
+}
+
+svg.ara{
+	top: 372px;
+	left: 394px;
+	width: 302px;
+}
+
+svg.naq{
+	top: 340px;
+	left: 157px;
+	width: 260px;
+}
+
+svg.bre{
+	top: 185px;
+	left: 0px;
+	width: 205px;
+}
+
+svg.occ{
+	top: 530px;
+	left: 246px;
+	width: 310px;
+}
+
+svg.pac{
+	top: 520px;
+	left: 539px;
+	width: 200px;
+}
+
+.popups{
+	position: absolute;
+	width: 100%;
+	z-index: 2;
+}
+
+.popups>div{
+	display: none;
+}
+
+.popups>div:target{
+	position: static;
+	display: block;
+	overflow-y: scroll;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+	background-color: #424242;
+	width: 90vw;
+	max-width: 1200px;
+	height: 60vh;
+	opacity: 0.85;
+	border-radius: 20px;
+	box-shadow: 10px 10px 0px #888888;
+}
+
+.popups>div>h1{
+	text-align: center;
+	font-weight: 900;
+}
+
+a.back{
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: block;
+	z-index: 4;
+	overflow: hidden;
+}
+
+.content{
+	z-index: 5;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 12px;
+	text-align: justify;
+}
