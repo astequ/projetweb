@@ -133,6 +133,13 @@ svg.pac{
 	width: 90vw;
 	max-width: 1200px;
 	height: 60vh;
+	opacity: 0.9;
+	border-radius: 20px;
+	box-shadow: 10px 10px 5px #888888;
+}
+.popups>div>h1{
+	text-align: center;
+	font-weight: 900;
 }
 
 a.back{
@@ -149,4 +156,8 @@ a.back{
 .content{
 	z-index: 5;
 	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 12px;
+	text-align: justify;
 }
