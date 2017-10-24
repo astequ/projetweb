@@ -21,21 +21,22 @@ div.map>a>svg>path:hover{
 }
 
 div.map>a>svg{
-	position: absolute;
+	position: fixed;
 	margin-left: calc(50vw - (739px/2));
 	margin-top: calc(50vh - (751px/2));
 	z-index: 1;
 }
 
-.back {
+.backcircle {
     background-color: white;
     width: 751px;
     display: block;
     height: 751px;
     border-radius: 1110px;
-		margin-left: calc(50vw - (751px/2));
-		margin-top: calc(50vh - (751px/2));
+		left: calc(50vw - (751px/2));
+		top: calc(50vh - (751px/2));
 		box-shadow: 15px 15px 10px rgba(0,0,0,0.2);
+		position: fixed;
 }
 
 svg.hdf{
@@ -132,14 +133,6 @@ svg.pac{
 	width: 90vw;
 	max-width: 1200px;
 	height: 60vh;
-	opacity: 0.85;
-	border-radius: 20px;
-	box-shadow: 10px 10px 0px #888888;
-}
-
-.popups>div>h1{
-	text-align: center;
-	font-weight: 900;
 }
 
 a.back{
@@ -156,8 +149,4 @@ a.back{
 .content{
 	z-index: 5;
 	position: relative;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 12px;
-	text-align: justify;
 }
