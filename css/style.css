@@ -126,7 +126,7 @@ svg.pac {
 .popups>article:target {
   position: static;
   display: block;
-  overflow-y: scroll;
+  overflow-y: hidden;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20vh;
@@ -135,6 +135,7 @@ svg.pac {
   max-width: 1200px;
   height: 60vh;
   border-radius: 20px;
+	border-bottom-right-radius: 0px;
   box-shadow: 7.5px 7.5px 5px rgba(0, 20, 17, 0.2);
 }
 
@@ -150,99 +151,99 @@ svg.pac {
 }
 
 #ara>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #ara>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #bfc>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #bfc>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #bre>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #bre>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #cvl>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #cvl>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #gre>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #gre>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #hdf>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #hdf>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #idf>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #idf>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #naq>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #naq>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #ndi>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #ndi>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #occ>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #occ>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #pac>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #pac>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 #plo>h2 {
-  background-color: blue;
+  background-color: #80deea;
 }
 
 #plo>.content {
-  border-top: 5px solid red;
+  border-top: 5px solid #fb8c00;
 }
 
 img {
@@ -271,6 +272,8 @@ a.back {
   padding-top: 22px;
   background-color: rgba(255, 255, 255, 0.9);
   box-shadow: 0px 15px 10px rgba(0,0,0,0.2) inset;
+	overflow-y: scroll;
+	max-height: calc(60vh - 85px);
 }
 
 .content>p {
