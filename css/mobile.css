@@ -7,8 +7,11 @@ body{
   display: none;
 }
 
-.popups{
+.popups>article{
   display: none;
+}
+.popups>article:target{
+  display: block;
 }
 
 header>h1{
@@ -21,23 +24,124 @@ header{
   background-color: #EF5350;
   margin: -3% -3% 0 -3%;
   padding: 10px 0px 5px 0px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 ul{
   list-style: none;
   padding-left: 0px;
   padding-top: 5px;
+  display: block;
+  text-align: center;
 }
 
 ul>li{
-  padding-bottom: 15px;
+  padding-bottom: 8px;
 }
 
 ul>li>a{
   text-decoration: none;
   color: black;
+  width: 80%;
+  padding: 5px 20px 5px 20px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  box-shadow: 5px 5px 3.75px rgba(0, 20, 17, 0.2);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
+article{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+article a{
+  position: absolute;
+  top: 74%;
+  left: 10%;
+  font-size: 30px;
+  color: red;
+  text-decoration: none;
+  transform: rotate(45deg);
+  background-color: white;
+  display: block;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  text-align: center;
+  box-shadow: 3px 3px 0.5px rgba(0, 20, 17, 0.2);
 
-
+}
+article>a::before{
+  content: "+";
+}
+article h2{
+  text-align: center;
+}
+.dish{
+  background-color: white;
+  text-align: justify;
+  padding: 5px 20px 5px 20px;
+  margin-bottom: 5px;
+}
+.content img{
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#liara{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#libfc{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#libre{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#licvl{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#ligre{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#lihdf{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#liidf{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#linaq{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#lindi{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#liocc{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#lipac{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
+#liplo{
+  border-bottom: 2px solid #fb8c00;
+  border-top: 2px solid #80deea;
+}
