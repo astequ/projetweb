@@ -265,17 +265,28 @@ a.back {
 .content {
   z-index: 5;
   position: relative;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
   padding-bottom: 22px;
   text-align: center;
   padding-top: 22px;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.4);
   box-shadow: 0px 15px 10px rgba(0,0,0,0.2) inset;
 	overflow-y: scroll;
 	max-height: calc(60vh - 107px);
 }
 
-.content>p {
+.dish>p {
   text-align: justify;
+}
+
+.dish{
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-left: 15px;
+  padding-right: 15px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	margin-bottom: 5px;
+	border-radius: 20px;
+	margin-bottom: 15px;
 }
