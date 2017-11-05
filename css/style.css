@@ -22,16 +22,16 @@ div.map {
   margin: auto;
 }
 
-div.map>a>svg>path {
+div.map>svg>a>path {
   fill: #EF5350;
   transition: fill .5s;
 }
 
-div.map>a>svg>path:hover {
+div.map>svg>a>path:hover {
   fill: #D32F2F;
 }
 
-div.map>a>svg {
+div.map>svg {
   position: fixed;
   margin-left: calc(50vw - (739px/2));
   margin-top: calc(50vh - (751px/2));
