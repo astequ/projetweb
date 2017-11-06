@@ -19,7 +19,7 @@ body {
 }
 
 div.map {
-  margin: auto;
+  position: absolute;
 }
 
 div.map>svg>a>path {
@@ -32,10 +32,13 @@ div.map>svg>a>path:hover {
 }
 
 div.map>svg {
-  position: fixed;
+  position: absolute;
   margin-left: calc(50vw - (739px/2));
-  margin-top: calc(50vh - (751px/2));
   z-index: 1;
+}
+
+.gap{
+	height: calc(50vh - (751px/2));
 }
 
 .backcircle {
@@ -45,9 +48,8 @@ div.map>svg {
   height: 751px;
   border-radius: 1110px;
   left: calc(50vw - (751px/2));
-  top: calc(50vh - (751px/2));
   box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.2);
-  position: fixed;
+  position: absolute;
 }
 
 svg.hdf {
@@ -123,7 +125,8 @@ svg.pac {
 }
 
 .popups {
-  position: absolute;
+  position: fixed;
+	top:0;
   width: 100%;
   z-index: 2;
 }
