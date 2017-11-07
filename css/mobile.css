@@ -36,6 +36,7 @@ header>h1{
   text-align: center;
   margin: 0px;
   color: #FFEBEE;
+  
 }
 
 header{
@@ -144,6 +145,7 @@ article h2{
   font-weight: normal;
   padding-bottom: 7px;
   line-height: 18px;
+  text-align: left;
 }
 .dish p{
   font-weight: normal;
