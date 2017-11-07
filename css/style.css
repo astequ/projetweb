@@ -39,6 +39,7 @@ div.map>svg {
 
 .gap{
 	height: calc(50vh - (751px/2));
+	min-height: 55px;
 }
 
 .backcircle {
@@ -325,4 +326,20 @@ h1,h2,h3{
 	margin-top: 12px;
 	text-align: center;
 	font-weight: bold;
+}
+
+header{
+	display: block;
+	font-family: zilla;
+	color: white;
+	background-color: #EF5350;
+	position: absolute;
+	width: 100%;
+	font-weight: bold;
+	text-align: left;
+	height: 55px;
+}
+
+header>h1::after{
+	content:" régionales françaises"
 }
